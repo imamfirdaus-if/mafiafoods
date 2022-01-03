@@ -102,7 +102,7 @@ public class FoodDetail extends AppCompatActivity {
                         .into(food_image);
 
                 collapsingToolbarLayout.setTitle(currentFood.getName());
-                food_price.setText(currentFood.getPrice());
+                food_price.setText(String.format(" Rp. %s", currentFood.getPrice().toString()));
                 food_name.setText(currentFood.getName());
                 food_description.setText(currentFood.getDescription());
 

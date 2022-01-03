@@ -113,7 +113,7 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
                         Toast.makeText(Home.this,""+clickItem.getName(), Toast.LENGTH_SHORT).show();
 
                         //get category id and send to new activity
-                        Intent foodList = new Intent(Home.this,FoodList.class);
+                        Intent foodList = new Intent(Home.this, FoodList.class);
                         //since cactegoryid is key, we only need key of the item
                         foodList.putExtra("CategoryId",adapter.getRef(position).getKey());
                         startActivity(foodList);

@@ -1,35 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="200dp"
-    app:cardElevation="4dp"
-    android:layout_marginBottom="8dp">
+    android:layout_height="250dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/bg_rounded"
+    android:elevation="3dp"
 
-    <RelativeLayout
+    android:outlineAmbientShadowColor="@color/cardview_light_background"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/food_image"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="175dp"
+        android:scaleType="centerCrop"
+        android:src="@color/fbutton_color_green_sea"
+        />
 
-        <ImageView
-            android:id="@+id/food_image"
-            android:scaleType="centerCrop"
-            android:src="@drawable/background"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:contentDescription="@string/content_desc" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/food_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-40dp"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        android:paddingHorizontal="10dp"
+        android:text="Food Name"
+        android:background="#60000000"/>
 
-        <TextView
-            android:id="@+id/food_name"
-            android:text="@string/name_of_food"
-            android:textColor="@android:color/white"
-            android:background="#4f0e0d0e"
-            android:textSize="20sp"
-            android:gravity="center"
-            android:layout_alignParentBottom="true"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        android:text="Harga"
+        android:paddingHorizontal="10dp"
+        android:textStyle="bold"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/food_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingHorizontal="10dp"
+        android:text="Rp. 10000"/>
 
-    </RelativeLayout>
-
-</androidx.cardview.widget.CardView>
+</androidx.appcompat.widget.LinearLayoutCompat>
