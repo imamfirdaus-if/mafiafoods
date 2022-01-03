@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "750964715360",
+    "firebase_url": "https://food-be222-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "food-be222",
+    "storage_bucket": "food-be222.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750964715360:android:758b11816a66bbdc23f805",
+        "android_client_info": {
+          "package_name": "com.sriram_n.foodmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750964715360-nsvhebgun02tntqe76dk82pdp2vvgqg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLIvvtZkA74F8S0uC_J7QLHxJnGQlgFQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750964715360-nsvhebgun02tntqe76dk82pdp2vvgqg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
