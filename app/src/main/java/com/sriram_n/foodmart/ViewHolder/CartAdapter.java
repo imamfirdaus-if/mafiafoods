@@ -9,18 +9,18 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.amulyakhare.textdrawable.TextDrawable;
 import com.sriram_n.foodmart.Common.Common;
 import com.sriram_n.foodmart.Interface.ItemClickListener;
 import com.sriram_n.foodmart.Model.Order;
-import com.sriram_n.foodmart.R;
+
 
 import java.text.NumberFormat;
 import java.util.List;
 import java.util.Locale;
-
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
 
 class CartViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener
         ,View.OnCreateContextMenuListener{

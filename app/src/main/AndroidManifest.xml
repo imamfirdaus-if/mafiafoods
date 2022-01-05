@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sriram_n.foodmart">
+    package="com.iftech.mafiafood">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,21 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <service
-            android:name=".Service.ListenOrder"
+            android:name="com.iftech.mafiafood.Service.ListenOrder"
             android:enabled="true"
             android:exported="true"></service>
 
-        <activity android:name=".OrderStatus" />
-        <activity android:name=".Cart" />
-        <activity android:name=".FoodDetail" />
-        <activity android:name=".FoodList" />
+
+        <activity android:name="com.iftech.mafiafood.OrderStatus" />
+        <activity android:name="com.iftech.mafiafood.Cart" />
+        <activity android:name="com.iftech.mafiafood.FoodDetail" />
+        <activity android:name="com.iftech.mafiafood.FoodList" />
         <activity
-            android:name=".Home"
+            android:name="com.iftech.mafiafood.Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SignUp" />
-        <activity android:name=".SignIn" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.iftech.mafiafood.SignUp" />
+        <activity android:name="com.iftech.mafiafood.SignIn" />
+        <activity android:name="com.iftech.mafiafood.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -8,6 +8,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:750964715360:android:7b165115d9fa19d323f805",
+        "android_client_info": {
+          "package_name": "com.iftech.mafiafood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750964715360-nsvhebgun02tntqe76dk82pdp2vvgqg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLIvvtZkA74F8S0uC_J7QLHxJnGQlgFQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750964715360-nsvhebgun02tntqe76dk82pdp2vvgqg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:750964715360:android:758b11816a66bbdc23f805",
         "android_client_info": {
           "package_name": "com.sriram_n.foodmart"
